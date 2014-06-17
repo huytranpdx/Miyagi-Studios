@@ -1,0 +1,121 @@
+/*****************************************************************
+  Nav
+*****************************************************************/
+.nav {
+  text-align: center;
+  background-color: #fff; }
+
+/*****************************************************************
+  NAV MAIN
+*****************************************************************/
+.main-nav {
+  font-family: Interstate;
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+.main-nav a {
+  color: #ff551f;
+  letter-spacing: 0.09375em;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4375em 0;
+  margin: 0 0.625em;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  border-bottom-color: transparent;
+  -webkit-transition: border-bottom-color 0.15s linear;
+  -moz-transition: border-bottom-color 0.15s linear;
+  transition: border-bottom-color 0.15s linear; }
+
+.main-nav a:hover,
+.main-nav a.active {
+  border-bottom-color: #ff551f; }
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  width: 100%;
+  z-index: 10; }
+
+/*****************************************************************
+  NAV MOBILE
+*****************************************************************/
+.nav-mobile {
+  font-size: 3.375rem;
+  font-family: "Interstate Condensed";
+  line-height: 1;
+  padding-top: 0.44444em;
+  padding-bottom: 0.44444em;
+  border-top: 7px solid #ff6d39;
+  border-bottom: 7px solid #ff6d39; }
+
+.nav-mobile a {
+  display: block;
+  margin-top: 0.2963em; }
+
+.nav-mobile a:first-child {
+  margin-top: 0; }
+
+  /*****************************************************************
+  NAV MAIN
+*****************************************************************/
+.main-nav {
+  font-family: Interstate;
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+.main-nav a {
+  color: #ff551f;
+  letter-spacing: 0.09375em;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4375em 0;
+  margin: 0 0.625em;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  border-bottom-color: transparent;
+  -webkit-transition: border-bottom-color 0.15s linear;
+  -moz-transition: border-bottom-color 0.15s linear;
+  transition: border-bottom-color 0.15s linear; }
+
+.main-nav a:hover,
+.main-nav a.active {
+  border-bottom-color: #ff551f; }
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  width: 100%;
+  z-index: 10; }
+
+  /*****************************************************************
+  NAV MOBILE
+*****************************************************************/
+.nav-mobile {
+  font-size: 3.375rem;
+  font-family: "Interstate Condensed";
+  line-height: 1;
+  padding-top: 0.44444em;
+  padding-bottom: 0.44444em;
+  border-top: 7px solid #ff6d39;
+  border-bottom: 7px solid #ff6d39; }
+
+.nav-mobile a {
+  display: block;
+  margin-top: 0.2963em; }
+
+.nav-mobile a:first-child {
+  margin-top: 0; }
+
+.active {
+  pointer-events: none;
+  cursor: default; }
+
+body { 
+	padding-top: 20px; 
+	background-color: white;
+}
