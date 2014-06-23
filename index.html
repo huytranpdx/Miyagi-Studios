@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/huy.css" rel="stylesheet" media="screen">
-  </head>
-  
+	<link href="css/huy.css" rel="stylesheet" media="screen"> 
+  </head> 
+
   <body class="container">
   	
   	<!--Carousel lines START LINE 12-->
@@ -60,7 +60,7 @@
   	<!--End Header END LINE 59-->
 
 	<!--Navigation START LINE 61 (5 buttons)-->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -77,11 +77,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active">
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Offerings</a></li>
-	        <li><a href="#">Book Appointment</a></li>
-	        <li><a href="#">Resources</a></li>
-	        <li><a href="#">Feedback</a></li>
+	        <li><a href="#about">About</a></li>
+	        <li><a href="#offerings">Offerings</a></li>
+	        <li><a href="#bookappointment">Book Appointment</a></li>
+	        <li><a href="#resources">Resources</a></li>
+	        <li><a href="#feedback">Feedback</a></li>
 	    </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -129,20 +129,24 @@
 
 
 	<!--About on left & Contact on right START LINE 130 (Grid - column 6 -->
-<div class="row">
-  <div class="col-md-6">
-    <h1>About</h1> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar dapibus justo eget pulvinar. In ultrices est non nisl euismod, ut ullamcorper nulla vulputate. Suspendisse potenti. Aenean at luctus purus, sit amet accumsan augue. Maecenas euismod quis metus in blandit. In et libero feugiat, mollis enim in, adipiscing tortor. Donec tincidunt fringilla iaculis. Etiam malesuada nunc pulvinar turpis laoreet, sit amet consectetur elit dapibus. Fusce turpis felis, ultricies vel convallis ut, rhoncus eget mauris. Quisque et dolor vehicula, aliquet neque ornare, cursus dui.
-      </p>
+<div class="text-center">	
+	<div id="about">
+	</div>
+		<div class="row">
+		  <div class="col-md-6">
+		    <h1>About</h1><br>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar dapibus justo eget pulvinar. In ultrices est non nisl euismod, ut ullamcorper nulla vulputate. Suspendisse potenti. Aenean at luctus purus, sit amet accumsan augue. Maecenas euismod quis metus in blandit. In et libero feugiat, mollis enim in, adipiscing tortor. Donec tincidunt fringilla iaculis. Etiam malesuada nunc pulvinar turpis laoreet, sit amet consectetur elit dapibus. Fusce turpis felis, ultricies vel convallis ut, rhoncus eget mauris. Quisque et dolor vehicula, aliquet neque ornare, cursus dui.
+		      </p>
 
 
-  </div>
-  <div class="col-md-6">
-  	<h1>Contact</h1>
-  	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar dapibus justo eget pulvinar. In ultrices est non nisl euismod, ut ullamcorper nulla vulputate. Suspendisse potenti. Aenean at luctus purus, sit amet accumsan augue. Maecenas euismod quis metus in blandit. In et libero feugiat, mollis enim in, adipiscing tortor. Donec tincidunt fringilla iaculis. Etiam malesuada nunc pulvinar turpis laoreet, sit amet consectetur elit dapibus. Fusce turpis felis, ultricies vel convallis ut, rhoncus eget mauris. Quisque et dolor vehicula, aliquet neque ornare, cursus dui.</p>
-  </div>
-</div>
-	
+		  </div>
+		  <div class="col-md-6">
+		  	<h1>Contact</h1><br>
+		  	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar dapibus justo eget pulvinar. In ultrices est non nisl euismod, ut ullamcorper nulla vulputate. Suspendisse potenti. Aenean at luctus purus, sit amet accumsan augue. Maecenas euismod quis metus in blandit. In et libero feugiat, mollis enim in, adipiscing tortor. Donec tincidunt fringilla iaculis. Etiam malesuada nunc pulvinar turpis laoreet, sit amet consectetur elit dapibus. Fusce turpis felis, ultricies vel convallis ut, rhoncus eget mauris. Quisque et dolor vehicula, aliquet neque ornare, cursus dui.</p>
+		  </div>
+		</div>
+	</div>
+		
 
 
 
@@ -161,11 +165,74 @@
     <!--End About on left & Contact on right END LINE 160 (Grid - column 6 -->
 
 	<!--Offerings START 162 (Grid - column 4) -->
-	
+	<!--<div class="text-center">
+		<h1>Offerings</h1>
+			<div class="row">
+			  <div class="col-md-4">
+			    <h2>Hot Stone</h2>
+			  </div>
+			  <div class="col-md-4">.col-md-4</div>
+			  <div class="col-md-4">.col-md-4</div>
+			</div>
+	</div>   -->
 
+  <div class="text-center">
+	  <h1>
+	  	<div id="offerings">
+	  		Current Offerings
+	  	</div>
+	  </h1>
+	  <br>
+	   <table class="table table-bordered table-condensed table-hover">
+	  
+	  <tr>
+	    <td>
+	      <h4>Swedish Massage</h4>
+	        <img src="images/swedish.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
+	   
+	    <td>
+	      <h4>Hot Stone Massage</h4>
+	        <img src="images/hotstone.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
+	   
+	    <td>
+	      <h4>Therapeutic Massage</h4>
+  	        <img src="images/thera.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
+	  </tr>
 
+	  <tr>
+	    <td>
+	      <h4>Myofacial Massage</h4>
+	        <img src="images/myo.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
 
+	    <td>
+	      <h4>Meet the Therapist</h4>
+	        <img src="images/therapist.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
 
+	    <td>
+	      <h4>Couples Massage</h4>
+	        <img src="images/couples.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td> 
+	  </tr>
+	</table>
+	<br>
+  </div>
 
 
 
@@ -331,74 +398,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!--End Offerings END LINE 400 (Grid - column 4)-->	
+    <!--End Offerings END LINE 400 (Grid - column 4)-->	
 
 	<!--Appointment Form START LINE 402 (Grid - column 6 - Add Map)-->
 	
@@ -651,47 +651,47 @@
 	<!--End Appointment Form END LINE 650  (Grid - column 6 - Add Map)-->	
 
 	<!--Resources Form  START LINE 652(Grid - column 3) -->
-	
+<div class="text-center">
+	  <h1>
+	  	<div id="resources">
+	  		Resources
+	  	</div>
+	  	<br>
+	  </h1>    
+	   <table class="table table-bordered table-condensed table-hover">
+	  
+	  <tr>
+	    <td>
+	      <h4>Books</h4>
+	        <img src="images/book.jpg" alt="A great book on hot stone therapy" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
+	   
+	    <td>
+	      <h4>Videos</h4>
+	        <img src="images/video.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
+	   
+	    <td>
+	      <h4>White Papers</h4>
+  	        <img src="images/resource.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
 
+	    <td>
+	      <h4>Case Studies</h4>
+  	        <img src="images/casestudy.jpg" alt="A client receiving a hotstone massage" class="img-responsive center-block">
+		      <p>Sed eget vulputate magna. Fusce ut felis sagittis, mollis tortor id, adipiscing orci. Donec rhoncus faucibus odio, ac ornare nisl egestas hendrerit. Curabitur non rutrum eros. 
+		      </p>	
+	    </td>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	  </tr>
+	</table>
+</div>
 
 
 
@@ -889,8 +889,9 @@
 
 
 
+	
 
-
+	
 
 
 
