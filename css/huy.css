@@ -115,7 +115,32 @@
   pointer-events: none;
   cursor: default; }
 
-body { 
-	padding-top: 20px; 
-	background-color: white;
+body {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  background: url(../images/pink.jpg) top center repeat;
+}
+
+.navbar-inverse {
+  background-color: #F4C3C6;
+  border-color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: black;
+background-color: #F4C3C6;
+}
+
+.navbar-inverse .navbar-brand {
+color: red;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+color: black;
+background-color: transparent;
+}
+
+.table-hover > tbody > td:hover > td,
+.table-hover > tbody > td:hover > th {
+  background-color: #F4E4E5;
 }
