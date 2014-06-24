@@ -161,13 +161,22 @@ form h1 {
   padding: 20px;
 }
 
+.pull-right a {
+  margin: 20px 25px 0 0;
+}
+
+.pull-right b {
+  margin: 20px 110px 0 0;
+}
 
 /*****************************************************************
   FOOTER
 *****************************************************************/
 
 footer {
+  background-color: #F4C3C6;
   padding: 20px;
+  margin: 40px 0 20px 0;
   overflow: auto;
   text-align: center;
 }
