@@ -165,8 +165,8 @@ form h1 {
   text-align: center;
 }
 
-form h3 {
-  border: 1px dashed black;
+td h3 {
+  text-align: center;
 }
 
 .fb_question {
