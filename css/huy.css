@@ -144,3 +144,13 @@ background-color: transparent;
 .table-hover > tbody > td:hover > th {
   background-color: #F4E4E5;
 }
+
+/*****************************************************************
+  FOOTER
+*****************************************************************/
+
+footer {
+  padding: 20px;
+  overflow: auto;
+  text-align: center;
+}
