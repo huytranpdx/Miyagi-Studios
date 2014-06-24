@@ -149,12 +149,16 @@ background-color: transparent;
   FEEDBACK
 *****************************************************************/
 
+form h1 {
+  text-align: center;
+}
+
 .fb_question {
-  padding: 10px;
+  padding: 20px;
 }
 
 .fb_response {
-  padding: 10px;
+  padding: 20px;
 }
 
 
