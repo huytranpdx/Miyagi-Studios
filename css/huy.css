@@ -149,6 +149,10 @@ background-color: transparent;
   APPT. FORM & MAP
 *****************************************************************/
 
+div.row {
+
+}
+
 .map {
 
 }
@@ -161,12 +165,16 @@ form h1 {
   text-align: center;
 }
 
+form h3 {
+  border: 1px dashed black;
+}
+
 .fb_question {
-  padding: 20px;
+  padding: 10px;
 }
 
 .fb_response {
-  padding: 20px;
+  padding: 10px;
 }
 
 .pull-right a {
