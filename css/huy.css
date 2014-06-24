@@ -153,9 +153,11 @@ div.row {
 
 }
 
-.map {
-
+.map h2 {
+  text-align: center;
 }
+
+
 
 /*****************************************************************
   FEEDBACK
@@ -166,7 +168,7 @@ form h1 {
 }
 
 td h3 {
-  text-align: center;
+  text-align:;
 }
 
 .fb_question {
