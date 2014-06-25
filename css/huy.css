@@ -149,16 +149,26 @@ background-color: transparent;
   APPT. FORM & MAP
 *****************************************************************/
 
+form h1 {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
 .appt_question {
   padding: 10px;
+  font-weight: bold;
 }
 
 .appt_answer {
   padding: 10px;
 }
 
-.map h2 {
+.map {
   text-align: center;
+}
+
+.map h3 {
+  padding: 20px;
 }
 
 
@@ -167,16 +177,13 @@ background-color: transparent;
   FEEDBACK
 *****************************************************************/
 
-form h1 {
-  text-align: center;
-}
-
 td h3 {
   text-align:;
 }
 
 .fb_question {
   padding: 10px;
+  font-weight: bold;
 }
 
 .fb_response {
