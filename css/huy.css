@@ -149,8 +149,12 @@ background-color: transparent;
   APPT. FORM & MAP
 *****************************************************************/
 
-div.row {
+.appt_question {
+  padding: 10px;
+}
 
+.appt_answer {
+  padding: 10px;
 }
 
 .map h2 {
