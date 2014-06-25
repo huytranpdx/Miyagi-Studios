@@ -176,9 +176,10 @@ form h1 {
 /*****************************************************************
   FEEDBACK
 *****************************************************************/
-
-td h3 {
-  text-align:;
+form div table tr td h3 {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
 }
 
 .fb_question {
