@@ -150,7 +150,7 @@ background-color: transparent;
 *****************************************************************/
 
 .carousel-caption a img {
-  max-width: 80px;
+  max-width: 5em;
   padding: 10px;
 }
 
