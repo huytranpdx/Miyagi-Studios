@@ -145,7 +145,7 @@ background-color: transparent;
   background-color: #F4E4E5;
 }
 
- /****************************************************************
+/*****************************************************************
   CAROUSEL
 *****************************************************************/
 
@@ -218,8 +218,8 @@ div table tr td h3 {
 }
 
 .social-popout {
-  height: 30px;
-  width: 30px;
+  height: 32px;
+  width: 32px;
   margin: 10px;
   float: left;
   -webkit-transition: all ease 0.5s;
@@ -265,4 +265,5 @@ footer {
 footer .container p {
   float: right;
 }
+
 
