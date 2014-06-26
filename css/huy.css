@@ -163,8 +163,9 @@ form h1 {
   padding: 10px;
 }
 
-.map {
-  text-align: center;
+td iframe {
+  display: block;
+  margin: 0 auto;
 }
 
 .map h3 {
