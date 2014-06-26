@@ -144,3 +144,125 @@ background-color: transparent;
 .table-hover > tbody > td:hover > th {
   background-color: #F4E4E5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+  CAROUSEL
+*****************************************************************/
+
+.carousel-caption img {
+  max-width: 5em;
+  padding: 10px;
+}
+
+
+/*****************************************************************
+  APPT. FORM & MAP
+*****************************************************************/
+
+h1 {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.appt_question {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.appt_answer {
+  padding: 10px;
+}
+
+td iframe {
+  display: block;
+  margin: auto;
+}
+
+#google_form iframe {
+  max-width: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.map h3 {
+  padding: 20px;
+}
+
+
+
+/*****************************************************************
+  FEEDBACK
+*****************************************************************/
+
+div table tr td h3 {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.fb_question {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.fb_response {
+  padding: 10px;
+}
+
+.pull-right a {
+  margin: 20px 25px 0 0;
+}
+
+.pull-right b {
+  margin: 20px 110px 0 0;
+}
+
