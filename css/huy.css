@@ -149,7 +149,7 @@ background-color: transparent;
   CAROUSEL
 *****************************************************************/
 
-.carousel-caption a img {
+.carousel-caption img {
   max-width: 5em;
   padding: 10px;
 }
@@ -187,6 +187,7 @@ td iframe {
 /*****************************************************************
   FEEDBACK
 *****************************************************************/
+
 form div table tr td h3 {
   text-align: center;
   margin: 20px;
@@ -214,10 +215,20 @@ form div table tr td h3 {
   FOOTER
 *****************************************************************/
 
+footer a img {
+  max-width: 5em;
+  padding: 10px;
+}
+
 footer {
   background-color: #F4C3C6;
   padding: 20px;
   margin: 40px 0 20px 0;
   overflow: auto;
   text-align: center;
+}
+
+footer p {
+  font-weight: bold;
+  font-style: italic;
 }
