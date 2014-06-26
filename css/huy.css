@@ -159,7 +159,7 @@ background-color: transparent;
   APPT. FORM & MAP
 *****************************************************************/
 
-form h1 {
+h1 {
   text-align: center;
   margin: 0 0 20px 0;
 }
@@ -175,7 +175,13 @@ form h1 {
 
 td iframe {
   display: block;
-  margin: 0 auto;
+  margin: auto;
+}
+
+#google_form iframe {
+  max-width: 100%;
+  padding: 20px;
+  margin: 10px;
 }
 
 .map h3 {
@@ -188,7 +194,7 @@ td iframe {
   FEEDBACK
 *****************************************************************/
 
-form div table tr td h3 {
+div table tr td h3 {
   text-align: center;
   margin: 20px;
   padding: 10px;

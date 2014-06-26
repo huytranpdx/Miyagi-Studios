@@ -401,76 +401,80 @@
 
 	<!--Appointment Form START LINE 402 (Grid - column 6 - Add Map)-->
 <div class="container">	
-	<form>
-		<div class="row">
-			<h1>Book Appointment</h1>
-			<table class="col-sm-6">
-				<tr>
-					<td class="appt_question">Name:</td>
-					<td class="appt_answer">
-						<input type="text" name="name" size="30"/>
-					</td>
-				</tr>
-				<tr>
-					<td class="appt_question">Age:</td>
-					<td class="appt_answer">
-						<input type="text" name="age" size="30"/>
-					</td>
-				</tr>
-				<tr>
-					<td class="appt_question">Email:</td>
-					<td class="appt_answer">
-						<input type="text" name="email" size="30"/>
-					</td>
-				</tr>
-				<tr>
-					<td class="appt_question">Phone:</td>
-					<td class="appt_answer">
-						<input type="text" name="phone" size="30"/>
-					</td>
-				</tr>
-				<tr>
-					<td class="appt_question">Requested Service:</td>
-					<td class="appt_answer">
-						<input type="text" name="service" size="30"/>
-					</td>
-				</tr>
-				<tr>
-					<td class="appt_question">Preferred Times:</td>
-					<td class="appt_answer">
-						<textarea type="text" name="times" rows="7" cols="32"></textarea>
-					</td>
-				</tr>
-				<tr> 
-					<td>&nbsp
-					</td>
-					<td class="pull-right"> 
-						<b class="btn btn-default btn-md">Book Now!
-						</b>
-					</td>
-				</tr>
-			</table>
+	<div class="row">
+		<h1>Book Appointment</h1>
+	<!--I was going to use the code below 'cause it looks nicer, but found I probably needed to learn PHP to implement it-->
+		<!--<table class="col-sm-6">
+			<tr>
+				<td class="appt_question">Name:</td>
+				<td class="appt_answer">
+					<input type="text" name="name" size="30"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="appt_question">Age:</td>
+				<td class="appt_answer">
+					<input type="text" name="age" size="30"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="appt_question">Email:</td>
+				<td class="appt_answer">
+					<input type="text" name="email" size="30"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="appt_question">Phone:</td>
+				<td class="appt_answer">
+					<input type="text" name="phone" size="30"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="appt_question">Requested Service:</td>
+				<td class="appt_answer">
+					<input type="text" name="service" size="30"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="appt_question">Preferred Times:</td>
+				<td class="appt_answer">
+					<textarea type="text" name="times" rows="7" cols="32"></textarea>
+				</td>
+			</tr>
+			<tr> 
+				<td>&nbsp
+				</td>
+				<td class="pull-right"> 
+					<b class="btn btn-default btn-md">Book Now!
+					</b>
+				</td>
+			</tr>
+		</table>-->
+		<table class="col-sm-6">
+			<tr>
+				<td id="google_form">
+					<iframe src="https://docs.google.com/forms/d/1b-eNPmkXURyzVgplw3MaTOQk5E2_HrVCJicQqb0zTlI/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+				</td>
+			</tr>
+		</table>
 
-			<table class="col-sm-6">
-				<div class="map">
-					<tr>
-						<td>
-							<h3>Our Location</h3>
-						</td>
-					</tr>
-					<tr>
-						<td>
-		        			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2794.7495626064765!2d-122.64068110000002!3d45.535245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a0cbf346c38b%3A0x9a2e2349c939a6da!2s2417+NE+Broadway+St!5e0!3m2!1sen!2sus!4v1403561188095" width="400" height="300" frameborder="0" style="border:0"></iframe>
-		        		</td>
-		        	</tr>
-		      </div>
-			</table>
+		<table class="col-sm-6">
+			<div class="map">
+				<tr>
+					<td>
+						<h3>Our Location</h3>
+					</td>
+				</tr>
+				<tr>
+					<td>
+	        			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2794.7495626064765!2d-122.64068110000002!3d45.535245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a0cbf346c38b%3A0x9a2e2349c939a6da!2s2417+NE+Broadway+St!5e0!3m2!1sen!2sus!4v1403561188095" width="400" height="300" frameborder="0" style="border:0"></iframe>
+	        		</td>
+	        	</tr>
+	      </div>
+		</table>
 
-		</div>
-	</form>
+	</div>
 
-
- <!--Posting data to Google Docs from this webpage-->
 
 
 
@@ -644,11 +648,7 @@
 
 
 	
-
-
-
-
-	<!--End Appointment Form END LINE 650  (Grid - column 6 - Add Map)-->	
+<!--End Appointment Form END LINE 650  (Grid - column 6 - Add Map)-->	
 
 	<!--Resources Form  START LINE 652(Grid - column 3) -->
 <div class="text-center">
